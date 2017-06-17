@@ -1,0 +1,103 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+
+}
+
+svg.intro {
+  max-width: 800px;
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  position: absolute;
+  z-index: 10;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+svg.intro .text {
+  display: none;
+}
+svg.intro.go .text {
+  font-family: San Francisco, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: block;
+}
+svg.intro.go .text-stroke {
+  fill: none;
+  stroke: #51256f;
+  stroke-width: 2.8px;
+  stroke-dashoffset: -900;
+  stroke-dasharray: 900;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  -webkit-animation: dash 2.5s ease-in-out forwards;
+          animation: dash 2.5s ease-in-out forwards;
+}
+svg.intro.go .text-stroke:nth-child(2) {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+svg.intro.go .text-stroke:nth-child(3) {
+  -webkit-animation-delay: .9s;
+          animation-delay: .9s;
+}
+svg.intro.go .text-stroke-2 {
+  stroke: #f6bdfa;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+svg.intro.go .text-stroke:nth-child(5) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+svg.intro.go .text-stroke:nth-child(6) {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+@-webkit-keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.reload {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  outline: none !important;
+  font-size: 11px;
+  line-height: 1.5;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 0 6px 7px #350e4c;
+  -webkit-transition: all 0.1s cubic-bezier(0.67, 0.13, 0.1, 0.81);
+  transition: all 0.1s cubic-bezier(0.67, 0.13, 0.1, 0.81);
+}
+.reload:hover {
+  box-shadow: 0 4px 4px #350e4c;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+.reload:active {
+  box-shadow: 0 1px 2px #244B94;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+.reload svg {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
