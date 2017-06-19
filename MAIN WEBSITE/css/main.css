@@ -23,9 +23,39 @@ body{
 
 }
 .mainSlide{
-  background-color: silver;
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   padding-top: 40vh;
   text-align: center;
+  overflow: hidden;
+  color: rgb(228,228,228);
+}
+.mainSlide h1{
+  font-size: 400%;
+}
+.mainSlide h2{
+  font-size: 150%;
+}
+#section2 .col-md-6{
+  min-height: 50vh;
+}
+#adgEvents{
+  background-color: rgb(236,236,236);
+  text-align: center;
+}
+#adgTeam{
+  background-color: rgb(246,246,246);
+  text-align: center;
+}
+#adgProjects{
+  background-color: rgb(246,246,246);
+  text-align: center;
+}
+#adgPartners{
+  background-color: rgb(236,236,236);
+  text-align: center;
+}
+.sec2Logo{
+  width: 8%;
+  padding: 0.7%;
 }
