@@ -19,8 +19,8 @@ body{
   font-size: 120%;
   background-color: rgb(75,75,77);
 }
-#navLinks li{
-
+#navBar{
+  background-color: rgb(0,0,0);
 }
 .mainSlide{
   font-family: 'Roboto', sans-serif;
@@ -62,13 +62,16 @@ body{
 #aboutADG{
   text-align: center;
   color: rgb(205,205,205);
+  background-color: rgb(10,10,10);
 }
 #aboutADG h1,h4{
   padding:1%;
 }
 #aboutTeams{
+  background-color: rgb(10,10,10);
   text-align: center;
   color: rgb(216,216,216);
+  padding-bottom: 4%;
 }
 #iosLogo{
   padding-top: 7%;
@@ -85,4 +88,29 @@ body{
 #webLogo{
   padding-top: 7%;
   width: 100%;
+}
+#contactADG{
+  color: rgb(216,216,216);
+  background-color: rgb(10,10,10);
+  text-align: center;
+  padding-bottom: 2%;
+}
+#contactUs{
+  background-color: rgb(10,10,10);
+  align-items: center;
+  text-align: center;
+}
+#formName{
+  padding: 1.5vh;
+}
+#formInput{
+  background-color: rgb(48,48,48);
+  border-color: rgb(48,48,48);
+  height:10vh;
+}
+#formRight{
+  padding: 3%;
+  background-color: rgb(48,48,48);
+  border-color: rgb(48,48,48);
+  height: 36vh;
 }
