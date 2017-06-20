@@ -99,6 +99,7 @@ body{
   background-color: rgb(10,10,10);
   align-items: center;
   text-align: center;
+  padding-bottom: 4%;
 }
 #formName{
   padding: 1.5vh;
@@ -113,4 +114,9 @@ body{
   background-color: rgb(48,48,48);
   border-color: rgb(48,48,48);
   height: 36vh;
+}
+#credits{
+  background-color: rgb(236,236,236);
+  padding-top: 10%;
+  text-align: center;
 }
