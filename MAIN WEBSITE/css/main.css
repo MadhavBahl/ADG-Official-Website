@@ -59,3 +59,30 @@ body{
   width: 8%;
   padding: 0.7%;
 }
+#aboutADG{
+  text-align: center;
+  color: rgb(205,205,205);
+}
+#aboutADG h1,h4{
+  padding:1%;
+}
+#aboutTeams{
+  text-align: center;
+  color: rgb(216,216,216);
+}
+#iosLogo{
+  padding-top: 7%;
+  width: 100%;
+}
+#androidLogo{
+  padding-top: 7%;
+  width: 100%;
+}
+#designLogo{
+  padding-top: 7%;
+  width: 100%;
+}
+#webLogo{
+  padding-top: 7%;
+  width: 100%;
+}
