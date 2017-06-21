@@ -24,4 +24,39 @@ body{
 }
 #delDesign{
   background-color: rgb(129,129,129);
+  min-height: 60vh;
+  width: 4%;
+}
+#wasteSpace{
+  min-height: 52vh;
+}
+#delta{
+  width:100%;
+}
+#eventsHead{
+  text-align: center;
+  padding-bottom: 4%;
+}
+#eventsHead h2{
+  color: rgb(56,56,56);
+}
+#eventsHead h6{
+  color: rgb(213,213,213);
+}
+#wasteSpace2{
+  min-height: 11vh;
+}
+#img1{
+  width:100%;
+}
+#event1Image{
+  padding: 0;
+}
+#event1{
+  padding: 0;
+  margin-bottom: 10%;
+  box-shadow: 7px 7px 6px #888888;
+}
+#iconsNet h5 a{
+  color: rgb(118,118,118);
 }
