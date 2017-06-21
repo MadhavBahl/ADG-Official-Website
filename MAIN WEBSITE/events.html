@@ -12,12 +12,38 @@
     App Store giving them complete access to developer
     tools, including iPhone SDK and
     iPhone Dev Centre resources." />
+    <link rel="stylesheet" href="css/loader.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="shortcut icon" href="img/adg-logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/eventsPage.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
+
+    <!-- ============ LOADER INTEGRATED ============== -->
+
+    <div id="overlay">
+      <div class="loader">
+        <div class="load_base load1">
+          <div class="load_base out_loader"></div>
+        </div>
+        <div class="load_base load2">
+          <div class="load_base in_loader in_loader1"></div>
+          <div class="load_base in_loader in_loader2"></div>
+          <div class="load_base in_loader in_loader3"></div>
+          <div class="load_base in_loader in_loader4"></div>
+        </div>
+      </div>
+      <div class="background">
+        <span> </span>
+        <div class="background_marge_title"></div>
+      </div>
+    </div>
+
+    <!-- ============ DIV CONTAINING MAIN CONTENT ============== -->
+
+    <div id="mainContent">
 
     <!-- ============ BOOTSTRAP RESPONSIVE NAVBAR ============== -->
 
@@ -36,7 +62,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul id="navLinks" class="nav navbar-nav navbar-right">
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="events.html">Events</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Partners</a></li>
@@ -49,9 +75,18 @@
     <!-- ============ EVENTS PAGE CONTAINER DIV ============== -->
 
     <div class="container">
-      
-    </div>
+      <div class="row">
+        <div class="col-xs-1" id="delDesign">
 
+        </div>
+        <div class="row">
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Script for loader -->
+    <script src="js/loader.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
