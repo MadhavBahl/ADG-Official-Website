@@ -16,19 +16,20 @@ body{
   background-color: rgb(75,75,77);
 }
 #navBar{
-  background-color: rgb(73,73,73);
+  background-color: rgb(43,43,43);
 }
 .container{
   width: 100%;
   margin: 0;
 }
 #delDesign{
+  position: fixed;
   background-color: rgb(129,129,129);
-  min-height: 60vh;
+  min-height: 64vh;
   width: 4%;
 }
 #wasteSpace{
-  min-height: 52vh;
+  min-height: 56vh;
 }
 #delta{
   width:100%;
@@ -68,7 +69,10 @@ body{
 #modalImage1{
   width:100%;
 }
-
+#event1:hover{
+  transition: 2s;
+  width: 104%;
+}
 #mainModal{
   text-align: justify;
   padding: 1.5%;
