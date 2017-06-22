@@ -60,3 +60,16 @@ body{
 #iconsNet h5 a{
   color: rgb(118,118,118);
 }
+#event1:hover{
+  transition: 2s;
+  cursor: pointer;
+  box-shadow: 7px 7px 15px #888888;
+}
+#modalImage1{
+  width:100%;
+}
+
+#mainModal{
+  text-align: justify;
+  padding: 1.5%;
+}
