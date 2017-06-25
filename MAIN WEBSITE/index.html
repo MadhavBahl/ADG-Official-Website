@@ -10,15 +10,11 @@
     developers to create teams of up to 200 members who can
     develop, test, debug and distribute applications via the
     App Store giving them complete access to developer
-<<<<<<< HEAD
-    tools, including iPhone SDK and 
-    iPhone Dev Centre resources." />
-=======
     tools, including iPhone SDK and
     iPhone Dev Centre resources." />
     <link rel="stylesheet" href="css/loader.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
->>>>>>> 9a25544db25a0178bcd7b1fdbb0c88fc3c00fca7
+
     <link rel="shortcut icon" href="img/adg-logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -54,7 +50,7 @@
     <!-- ============ BOOTSTRAP RESPONSIVE NAVBAR ============== -->
 
     <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
+      <div id="navCont" class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -67,12 +63,12 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul id="navLinks" class="nav navbar-nav navbar-right">
-            <li><a href="#section2" >About Us</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#contactADG">Contact Us</a></li>
+            <li><a id="linkAddress" class="lAd" href="#section2" >About Us</a></li>
+            <li><a id="linkAddress" class="lAd" href="events.html">Events</a></li>
+            <li><a id="linkAddress" class="lAd" href="#">Team</a></li>
+            <li><a id="linkAddress" class="lAd" href="projects.html">Projects</a></li>
+            <li><a id="linkAddress" class="lAd" href="#">Partners</a></li>
+            <li><a id="linkAddress" class="lAd" href="#contactADG">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -90,6 +86,10 @@
             <div class="centerTextHead">
               <h1>Create. Ideate. Innovate.</h1>
               <h2>Apple Developers Group</h2>
+            </div>
+            <div class="arrow animated bounce">
+              <a href="#section2"><img width="40" height="40" alt="" src="img/arrow.png" />
+              </a>
             </div>
           </div>
         </div>
@@ -259,23 +259,31 @@
         </div>
       </div>
       <div id="aboutTeams" class="row">
-        <div class="col-md-3 col-xs-12 col-sm-6">
-          <img id="iosLogo" src="img/ios_logo.png" alt="IOS DEV">
+        <div class="col-md-3 col-xs-6 col-sm-6">
+          <div class="animated touchBounce">
+            <img id="iosLogo" src="img/ios_logo.png" alt="IOS DEV">
+          </div>
           <h2>iOS</h2>
           <h4>ABCDEFGHIJKLMNOP</h4>
         </div>
-        <div class="col-md-3 col-xs-12 col-sm-6">
-          <img id="androidLogo" src="img/android_logo.png" alt="ANDROID DEV">
+        <div class="col-md-3 col-xs-6 col-sm-6">
+          <div class="animated touchBounce">
+            <img id="androidLogo" src="img/android_logo.png" alt="ANDROID DEV">
+          </div>
           <h2>ANDROID</h2>
           <h4>ABCDEFGHIJKLMNOP</h4>
         </div>
-        <div class="col-md-3 col-xs-12 col-sm-6">
-          <img id="designLogo" src="img/design_logo.png" alt="DESIGN DEV">
+        <div class="col-md-3 col-xs-6 col-sm-6">
+          <div class="animated touchBounce">
+            <img id="designLogo" src="img/design_logo.png" alt="DESIGN DEV">
+          </div>
           <h2>DESIGN</h2>
           <h4>ABCDEFGHIJKLMNOP</h4>
         </div>
-        <div class="col-md-3 col-xs-12 col-sm-6">
-          <img id="webLogo" src="img/web_logo.png" alt="WEB DEV">
+        <div class="col-md-3 col-xs-6 col-sm-6">
+          <div class="animated touchBounce">
+            <img id="webLogo" src="img/web_logo.png" alt="WEB DEV">
+          </div>
           <h2>WEB</h2>
           <h4>ABCDEFGHIJKLMNOP</h4>
         </div>
@@ -325,11 +333,15 @@
 
     </div>
     </div>
+
+
     <!-- Script for loader -->
     <script src="js/loader.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Script for navBar color changes -->
+    <script src="js/navBar.js"></script>
   </body>
 </html>

@@ -62,7 +62,7 @@ body{
   color: rgb(118,118,118);
 }
 #event1:hover{
-  transition: 2s;
+  transition: 0.5s;
   cursor: pointer;
   box-shadow: 7px 7px 15px #888888;
 }
@@ -70,7 +70,7 @@ body{
   width:100%;
 }
 #event1:hover{
-  transition: 2s;
+  transition: 0.5s;
   width: 104%;
 }
 #mainModal{

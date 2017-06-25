@@ -102,7 +102,7 @@
                 </div>
                 <div id="iconsNet" class="col-xs-12">
                   <h5>
-                    <a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+                    <a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a>
                     <a href="#"><span class="glyphicon glyphicon-bookmark"></span></a>
                     <a href="#"><span class="glyphicon glyphicon-share-alt"></span></a>
                   </h5>
@@ -143,7 +143,7 @@
                   <h5>
                     <a href="#"><span class="glyphicon glyphicon-heart"></span></a>
                     <a href="#"><span class="glyphicon glyphicon-bookmark"></span></a>
-                    <a href="#"><span class="glyphicon glyphicon-share-alt"></span></a>
+                    <a id="shareBtn" href="#"><span class="glyphicon glyphicon-share-alt"></span></a>
                   </h5>
                 </div>
               </div>
@@ -255,6 +255,17 @@
       </div>
     </div>
     </div>
+
+    <script>
+      document.getElementById('shareBtn').onclick = function() {
+        FB.ui({
+          method: 'share',
+          display: 'popup',
+          href: 'https://developers.facebook.com/docs/',
+        }, function(response){});
+      }
+    </script>
+
     <!-- Script for loader -->
     <script src="js/loader.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
