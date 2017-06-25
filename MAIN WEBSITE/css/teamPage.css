@@ -1,0 +1,27 @@
+body{
+  background-color: #202020;
+    overflow-x: hidden;
+}
+#adgLogo{
+  width: 40%;
+  height: auto;
+  margin-top: -10%;
+}
+.container-fluid{
+  background-color: rgb(11,11,11);
+}
+#navLinks li:hover{
+  transition: 0.5s;
+  font-size: 120%;
+  background-color: rgb(55,55,55);
+}
+
+#navBar{
+
+  background-color: rgb(10,10,10);
+}
+.container{
+  background-color: #202020;
+  margin-top: 10vh;
+  min-height: 50vh;
+}
