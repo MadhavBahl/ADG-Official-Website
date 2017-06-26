@@ -21,7 +21,7 @@ $(document).ready(function(){
     else {
       $('#navBar').css('transition','1s');
       $('#linkAddress:hover').css('color: rgb(230,230,230);');
-      $('#navBar').css('background-color', 'rgba(235,235,235,0.4)');
+      $('#navBar').css('background-color', 'rgba(235,235,235,0.3)');
       $('.lAd').css('color', 'rgb(20,20,20)');
     }
   });
