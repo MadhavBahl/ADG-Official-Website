@@ -253,3 +253,19 @@ animation-duration:2s;
 	-o-animation-name: bounce;
 	animation-name: bounce;
 }
+
+#pageFooterMain{
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: #c7c7c7;
+}
+#pageFooter{
+  text-align: center;
+  color: #000000;
+}
+#pageFooter h2{
+  padding-top: 2%;
+}
+#pageFooter h2 i{
+  padding-left: 2%;
+}
