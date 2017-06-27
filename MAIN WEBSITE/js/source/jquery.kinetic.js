@@ -1,5 +1,5 @@
 /*!
-    jQuery.kinetic v1.8.3
+    jQuery.kinetic v1.8.2
     Dave Taylor http://the-taylors.org/jquery.kinetic
 
     The MIT License (MIT)
@@ -243,16 +243,11 @@
                 settings.velocity    = capVelocity(prevXPos - xpos, settings.maxvelocity);
                 settings.velocityY   = capVelocity(prevYPos - ypos, settings.maxvelocity);
             };
-            var useTarget = function(target, ev) {
+            var useTarget = function(target) {
                 if ($.isFunction(settings.filterTarget)) {
-                    return settings.filterTarget.call(self, target, ev) !== false;
-                } else {
-                  if (ev.which && ev.which > 1){
-                    return false;
-                  } else {
-                    return true;
-                  }
+                    return settings.filterTarget.call(self, target) !== false;
                 }
+                return true;
             };
             var start = function(clientX, clientY) {
                 mouseDown = true;
@@ -302,7 +297,7 @@
             settings.events = {
                 touchStart: function(e){
                     var touch;
-                    if (useTarget(e.target, e)) {
+                    if (useTarget(e.target)) {
                         touch = e.originalEvent.touches[0];
                         start(touch.clientX, touch.clientY);
                         e.stopPropagation();
@@ -317,7 +312,7 @@
                     }
                 },
                 inputDown: function(e){
-                    if (useTarget(e.target, e)) {
+                    if (useTarget(e.target)) {
                         start(e.clientX, e.clientY);
                         elementFocused = e.target;
                         if (e.target.nodeName === 'IMG'){
