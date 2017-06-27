@@ -8,5 +8,5 @@ function myfunc(){
   location.href = "home.html";
 }
 function myFunction(){
-  setTimeout(myfunc, 1500);
+  setTimeout(myfunc, 2000);
 }
