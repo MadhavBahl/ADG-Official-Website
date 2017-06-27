@@ -54,8 +54,6 @@ body{
   margin-bottom: 4%;
 }
 #pageFooterMain{
-  padding-top: 3%;
-  padding-bottom: 2%;
   background-color: #c7c7c7;
 }
 #pageFooter{
@@ -63,7 +61,7 @@ body{
   color: #000000;
 }
 #pageFooter h2{
-  padding-top: 2%;
+  
 }
 #pageFooter h2 i{
   padding-left: 2%;

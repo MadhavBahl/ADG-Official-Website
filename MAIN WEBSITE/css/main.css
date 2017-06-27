@@ -60,16 +60,26 @@ body{
   background-color: rgb(236,236,236);
   text-align: center;
 }
+#widthFix{
+}
 #adgTeam{
+
   background-color: rgb(246,246,246);
+  background-image: url('../img/carousel2a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 #adgProjects{
   background-color: rgb(246,246,246);
+  background-image: url('../img/carousel2a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 #adgPartners{
   background-color: rgb(236,236,236);
+
   text-align: center;
 }
 .sec2Logo{
@@ -255,8 +265,6 @@ animation-duration:2s;
 }
 
 #pageFooterMain{
-  padding-top: 3%;
-  padding-bottom: 2%;
   background-color: #c7c7c7;
 }
 #pageFooter{
@@ -264,7 +272,6 @@ animation-duration:2s;
   color: #000000;
 }
 #pageFooter h2{
-  padding-top: 2%;
 }
 #pageFooter h2 i{
   padding-left: 2%;

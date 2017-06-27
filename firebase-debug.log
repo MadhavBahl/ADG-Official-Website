@@ -1,23 +1,24 @@
-[debug] [2017-06-26T10:23:57.819Z] ----------------------------------------------------------------------
-[debug] [2017-06-26T10:23:57.822Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2017-06-26T10:23:57.822Z] CLI Version:  3.9.1
-[debug] [2017-06-26T10:23:57.822Z] Platform:     win32
-[debug] [2017-06-26T10:23:57.822Z] Node Version: v6.11.0
-[debug] [2017-06-26T10:23:57.823Z] Time:         Mon Jun 26 2017 15:53:57 GMT+0530 (India Standard Time)
-[debug] [2017-06-26T10:23:57.823Z] ----------------------------------------------------------------------
+[debug] [2017-06-26T11:09:33.006Z] ----------------------------------------------------------------------
+[debug] [2017-06-26T11:09:33.008Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-06-26T11:09:33.009Z] CLI Version:  3.9.1
+[debug] [2017-06-26T11:09:33.009Z] Platform:     win32
+[debug] [2017-06-26T11:09:33.009Z] Node Version: v6.11.0
+[debug] [2017-06-26T11:09:33.010Z] Time:         Mon Jun 26 2017 16:39:33 GMT+0530 (India Standard Time)
+[debug] [2017-06-26T11:09:33.010Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-06-26T10:23:57.839Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-26T10:23:57.839Z] > authorizing via signed-in user
-[debug] [2017-06-26T10:23:57.841Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-06-26T10:23:57.842Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/h1Gaw_vDfFKxliaBZQesnm-MPjiD3Giq3hp8d9pwUAa3IDGnSwjrOMpV7jLeGG2M',
+[debug] [2017-06-26T11:09:33.022Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-26T11:09:33.023Z] > authorizing via signed-in user
+[debug] [2017-06-26T11:09:33.024Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-26T11:09:33.025Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/h1Gaw_vDfFKxliaBZQesnm-MPjiD3Giq3hp8d9pwUAa3IDGnSwjrOMpV7jLeGG2M',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Mon Jun 26 2017 15:53:57 GMT+0530 (India Standard Time)
-[debug] [2017-06-26T10:23:58.831Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-26T10:23:58.889Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/adg-official-main  
- Mon Jun 26 2017 15:53:58 GMT+0530 (India Standard Time)
-[debug] [2017-06-26T10:24:01.752Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-26T10:24:01.752Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/adg-official-main/tokens  
- Mon Jun 26 2017 15:54:01 GMT+0530 (India Standard Time)
+ Mon Jun 26 2017 16:39:33 GMT+0530 (India Standard Time)
+[debug] [2017-06-26T11:09:33.650Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T11:09:33.729Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/adg-official-main  
+ Mon Jun 26 2017 16:39:33 GMT+0530 (India Standard Time)
+[debug] [2017-06-26T11:09:39.369Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T11:09:39.370Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/adg-official-main/tokens  
+ Mon Jun 26 2017 16:39:39 GMT+0530 (India Standard Time)
+[debug] [2017-06-26T11:09:40.889Z] <<< HTTP RESPONSE 200
