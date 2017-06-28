@@ -61,10 +61,13 @@ body{
   color: #000000;
 }
 #pageFooter h2{
-  
+
 }
-#pageFooter h2 i{
+#pageFooter h4 i{
   padding-left: 2%;
+}
+#pageFooter h4{
+
 }
 
 /* ================== CSS for Bounce animation ================== */
