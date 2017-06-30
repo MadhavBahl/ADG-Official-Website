@@ -126,3 +126,10 @@ animation-duration:2s;
 	-o-animation-name: bounce;
 	animation-name: bounce;
 }
+#modalImage1{
+  width:100%;
+}
+#mainModal{
+  text-align: center;
+  padding: 1.5%;
+}

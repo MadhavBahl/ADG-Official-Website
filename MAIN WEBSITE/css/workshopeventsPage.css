@@ -69,10 +69,7 @@ body{
 #modalImage1{
   width:100%;
 }
-#event1:hover{
-  transition: 0.5s;
-  width: 104%;
-}
+
 #eventModal1{
 
 }
@@ -101,6 +98,6 @@ body{
   height: 50vh;
 }
 #img1:hover{
-  transition: 0.5s;
-  height: 52vh;
+  transition: 0.25s;
+  height: 50.5vh;
 }
