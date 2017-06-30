@@ -64,7 +64,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul id="navLinks" class="nav navbar-nav navbar-right">
             <li><a id="linkAddress" class="lAd link1" href="#aboutADG" >About Us</a></li>
-            <li><a id="linkAddress" class="lAd" href="events.html">Events</a></li>
+            <li><a id="linkAddress" class="lAd" data-target="#imageModal1" data-toggle="modal" >Events</a></li>
             <li><a id="linkAddress" class="lAd" href="team.html">Team</a></li>
             <li><a id="linkAddress" class="lAd" href="projects.html">Projects</a></li>
             <li><a id="linkAddress" class="lAd" href="partners.html">Partners</a></li>
@@ -108,15 +108,15 @@
               <li data-target="#imageCarousel1" data-slide-to="1"></li>
               <li data-target="#imageCarousel1" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div data-target="#imageModal1" data-toggle="modal" class="carousel-inner">
               <div id="imgCarousel" class="item active">
-                <img id="carouselImages" src="img/carousel1c.jpg" class="img-responsive" />
+                <img id="carouselImages" src="img/MacAnApp/cover.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
-                <img id="carouselImages" src="img/carousel2.jpg" class="img-responsive" />
+                <img id="carouselImages" src="img/Appathon/4.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
-                <img id="carouselImages" src="img/carousel3.jpg" class="img-responsive" />
+                <img id="carouselImages" src="img/Appathon/0.jpg" class="img-responsive" />
               </div>
             </div>
             <a href="#imageCarousel1" class="carousel-control left" data-slide="prev">
@@ -126,9 +126,9 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
             <div class="main-text">
-                <div class="col-xs-12 text-center">
-                  <h2><a style="color: white;" href="events.html"><img class="sec2Logo" src="img/adg-logo.png" alt="APPLE DEVELOPERS GROUP" >EVENTS</a></h2>
-                  <h5><a style="color: white;" href="events.html">Come see us</a></h5>
+                <div id="toPoint" class="col-xs-12 text-center">
+                  <h2><a style="color: black;" data-target="#imageModal1" data-toggle="modal"><img class="sec2Logo" data-target="#imageModal1" data-toggle="modal" src="img/adg-logo.png" alt="APPLE DEVELOPERS GROUP" >EVENTS</a></h2>
+                  <h5><a style="color: black;" data-target="#imageModal1" data-toggle="modal">Come see us</a></h5>
                 </div>
               </div>
             </div>
@@ -178,6 +178,28 @@
         -->
         </div>
       </div>
+
+      <!-- =============  MODAL FOR EVENTS PAGE  ============== -->
+
+      <div class="modal fade" id="imageModal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div id="mainModal" class="modal-content">
+            <div class="row">
+              <div class="col-xs-4">
+                <h4><a style="color: black;" href="classroomEvents.html"> PREMIUM </a></h4>
+              </div>
+              <div class="col-xs-4">
+                <h4><a style="color: black;" href="classroomEvents.html"> CLASSROOM </a></h4>
+              </div>
+              <div class="col-xs-4">
+                <h4><a style="color: black;" href="classroomEvents.html"> WORKSHOP </a></h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       <div id="section2" class="row">
         <div class="col-md-6 col-xs-12" id="adgProjects">
           <div id="widthFix">
@@ -236,13 +258,13 @@
             </ol>
             <div class="carousel-inner">
               <div id="imgCarousel" class="item active">
-                <img id="carouselImages" src="img/carousel1.jpg" class="img-responsive" />
+                <img id="carouselImages" src="partners/p1.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
-                <img id="carouselImages" src="img/carousel2.jpg" class="img-responsive" />
+                <img id="carouselImages" src="partners/p2.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
-                <img id="carouselImages" src="img/carousel3.jpg" class="img-responsive" />
+                <img id="carouselImages" src="partners/p7.jpg" class="img-responsive" />
               </div>
             </div>
             <a href="#imageCarousel4" class="carousel-control left" data-slide="prev">
@@ -253,8 +275,8 @@
             </a>
             <div class="main-text">
               <div class="col-xs-12 text-center">
-                <h2><a style="color: white;" href="partners.html"><img class="sec2Logo" src="img/adg-logo.png" alt="APPLE DEVELOPERS GROUP" >PARTNERS</a></h2>
-                <h5><a style="color: white;" href="partners.html">A shortcut to companies helping us out</a></h5>
+                <h2><a style="color: black;" href="partners.html"><img class="sec2Logo" src="img/adg-logo.png" alt="APPLE DEVELOPERS GROUP" >PARTNERS</a></h2>
+                <h5><a style="color: black;" href="partners.html">A shortcut to companies helping us out</a></h5>
               </div>
             </div>
           </div>

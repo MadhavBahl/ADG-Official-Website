@@ -299,3 +299,16 @@ margin-top: -1%;
 padding: 0%;
 padding-top: 1%;
 }
+#modalImage1{
+  width:100%;
+}
+#mainModal{
+  text-align: center;
+  padding: 1.5%;
+}
+#toPoint:hover{
+  cursor: pointer;
+}
+.modal-content{
+
+}

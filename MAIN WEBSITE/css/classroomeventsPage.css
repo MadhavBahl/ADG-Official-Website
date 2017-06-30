@@ -73,7 +73,27 @@ body{
   transition: 0.5s;
   width: 104%;
 }
+#eventModal1{
+
+}
 #mainModal{
   text-align: justify;
   padding: 1.5%;
+  background-color: black;
+}
+.main-text
+{
+    position: absolute;
+    top: 5%;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+#imgCarousel{
+  width: 100%;
+  margin: 0;
+}
+#carouselImages1{
+  height: 50vh;
+  width: 100%;
+  margin: 0;
 }

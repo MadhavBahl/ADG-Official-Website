@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="shortcut icon" href="img/adg-logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/eventsPage.css">
+    <link rel="stylesheet" href="css/classroomeventsPage.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
@@ -98,7 +98,7 @@
             <div class="col-sm-3 col-xs-12">
               <div class="col-xs-12" id="event1">
                 <div id="event1Image" class="col-xs-12">
-                  <img id="img1" data-target="#imageModal1" data-toggle="modal" src="img/event1.jpg">
+                  <img style="height:50vh; ;" id="img1" data-target="#imageModal1" data-toggle="modal" src="img/Pytalk/1.jpg">
                 </div>
                 <div id="iconsNet" class="col-xs-12">
                   <h5>
@@ -117,10 +117,38 @@
                     <div class="col-xs-12">
                       <div class="modal-header">
                         <button class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">EVENT NAME</h4>
+                        <h1 class="modal-title">PYTALK</h1>
                       </div>
-                      <img id="modalImage1" src="img/eventModal1.jpg">
-                      <p> Apple Developers Group
+                      <div id="eventCarousel1" class="carousel slide" data-interval="1500" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#eventCarousel1" data-slide-to="0" class="active"></li>
+                          <li data-target="#eventCarousel1" data-slide-to="1"></li>
+                          <li data-target="#eventCarousel1" data-slide-to="2"></li>
+                        </ol>
+                        <div data-target="#eventModal1" data-toggle="modal" class="carousel-inner">
+                          <div id="imgCarousel" class="item active">
+                            <img id="carouselImages1" src="img/MacAnApp/cover.jpg" class="img-responsive" />
+                          </div>
+                          <div id="imgCarousel" class="item">
+                            <img id="carouselImages1" src="img/Appathon/4.jpg" class="img-responsive" />
+                          </div>
+                          <div id="imgCarousel" class="item">
+                            <img id="carouselImages1" src="img/Appathon/0.jpg" class="img-responsive" />
+                          </div>
+                        </div>
+                        <a href="#eventCarousel1" class="carousel-control left" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a href="#eventCarousel1" class="carousel-control right" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                        <div class="main-text">
+                          <div id="toPoint" class="col-xs-12 text-center">
+                            <h2><img class="sec2Logo" data-target="#imageModal1" data-toggle="modal" src="img/adg-logo.png" alt="APPLE DEVELOPERS GROUP" ></h2>
+                          </div>
+                        </div>
+                      </div>
+                      <p><br /> Apple Developers Group
                     is a free initiative to assist developers in higher education
                     institution (VIT), who intend to teach development for the
                     iPhone, iPad and iPod Touch.
