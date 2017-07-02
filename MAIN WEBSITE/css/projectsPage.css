@@ -1,6 +1,7 @@
 body{
-  background-color: rgb(254,254,254);
+  background-color: #212121;
     overflow-x: hidden;
+    color: rgb(216,216,226);
 }
 #adgLogo{
   width: 40%;
@@ -16,7 +17,7 @@ body{
   background-color: rgb(75,75,77);
 }
 #navBar{
-  background-color: rgb(43,43,43);
+  background-color: black;
 }
 .container{
   width: 100%;
@@ -24,7 +25,7 @@ body{
 }
 #delDesign{
   position: fixed;
-  background-color: rgb(129,129,129);
+  background-color: rgb(53,53,53);
   min-height: 60vh;
   width: 4%;
 }
@@ -33,10 +34,64 @@ body{
 }
 #delDesign{
   position: fixed;
-  background-color: rgb(129,129,129);
+  background-color: rgb(53,53,53);
   min-height: 64vh;
   width: 4%;
+  z-index: 2;
 }
 #delta{
   width:100%;
+}
+#vitFreshers{
+  width:90%;
+
+  /* ========= transition for transform property ========= */
+
+  transition: transform 1.5s ease-in; /* vendorless fallback */
+  -o-transition: transform 1.5s ease-in; /* opera */
+  -ms-transition: transform 1.5s ease-in; /* IE 10 */
+  -moz-transition: transform 1.5s ease-in; /* Firefox */
+  -webkit-transition: transform 1.5s ease-in; /*safari and chrome */
+
+  /* ========= transition for width property ========= */
+
+    transition: 2s;
+}
+#vitFreshers:hover{
+  transition: transform 2s ease-out; /* vendorless fallback */
+  -o-transition: transform 2s ease-out; /* opera */
+  -ms-transition: transgorm 2s ease-out; /* IE 10 */
+  -moz-transition: transform 2s ease-out; /* Firefox */
+  -webkit-transition: transform 2s ease-out; /*safari and chrome */
+  transform: rotateY(360deg);
+
+  transition: 2s;
+  width:100%;
+  margin: -6%;
+}
+#projectsMain{
+  text-align: center;
+}
+#appStore{
+  width:50%;
+}
+#lineBreak{
+  width:100%;
+}
+
+#pageFooterMain{
+  background-color: #c7c7c7;
+}
+#pageFooter{
+  text-align: center;
+  color: #000000;
+}
+#pageFooter h2{
+
+}
+#pageFooter h4 i{
+  padding-left: 2%;
+}
+#pageFooter h4{
+
 }
