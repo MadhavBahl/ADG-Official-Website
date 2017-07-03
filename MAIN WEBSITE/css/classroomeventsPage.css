@@ -104,3 +104,10 @@ body{
   transition: 0.5s;
   height: 52vh;
 }
+.sec2Logo{
+  display: flex;
+  top: 0%;
+  left: 0%;
+  width: 10vh;
+  margin-top: -5%;
+}

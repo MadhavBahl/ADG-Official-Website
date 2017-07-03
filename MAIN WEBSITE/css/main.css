@@ -102,19 +102,19 @@ body{
 }
 #iosLogo{
   padding-top: 7%;
-  width: 100%;
+  width: 80%;
 }
 #androidLogo{
   padding-top: 7%;
-  width: 100%;
+  width: 80%;
 }
 #designLogo{
   padding-top: 7%;
-  width: 100%;
+  width: 80%;
 }
 #webLogo{
   padding-top: 7%;
-  width: 90%;
+  width: 70%;
 }
 #contactADG{
   color: rgb(216,216,216);
@@ -160,6 +160,7 @@ body{
 
 }
 #imgCarousel{
+  height: 50vh;
   width: 100%;
   margin: 0;
 }
@@ -180,9 +181,13 @@ body{
   margin-right: -3%;
 }
 #carouselImages{
-  height: 50vh;
+
   width: 100%;
-  margin: 0;
+  height:70vh;
+  align-items: center;
+    margin: 0;
+  margin-bottom: 20vh;
+
 }
 .main-text
 {
@@ -311,4 +316,64 @@ padding-top: 1%;
 }
 .modal-content{
 
+}
+#linkAddress{
+  font-family: Roboto;
+  font-size: 16px;
+}
+#mainHeadText{
+  font-family: Roboto;
+  font-size: 120%;
+
+}
+#formInput{
+  color: white;
+}
+#formRight{
+  color: white;
+}
+#premiumEvents a{
+  font-size: 100%;
+  text-decoration: none;
+  transition: 1.5s;
+}
+#premiumEvents{
+  transition: 1.5s;
+}
+#classroomEvents a{
+  font-size: 100%;
+  text-decoration: none;
+  transition: 1.5s;
+}
+#classroomEvents{
+  transition: 1.5s;
+}
+#workshopEvents a{
+  font-size: 100%;
+  text-decoration: none;
+  transition: 1.5s;
+}
+#workshopEvents{
+  transition: 1.5s;
+}
+#mainModal{
+  overflow: hidden;
+  margin: 0%;
+}
+#premiumEvents:hover{
+  transition: 1.5s;
+  background-color: rgba(34,34,34,0.5);
+}
+#premiumEvents a:hover{
+  transition: 1.5s;
+  color: rgba(234,234,234,0.5);
+  text-decoration: none;
+}
+#classroomEvents:hover{
+  transition: 1.5s;
+  background-color: rgba(34,34,34,0.5);
+}
+#workshopEvents:hover{
+  transition: 1.5s;
+  background-color: rgba(34,34,34,0.5);
 }
