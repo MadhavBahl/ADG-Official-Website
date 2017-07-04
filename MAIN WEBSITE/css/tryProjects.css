@@ -28,6 +28,7 @@ body{
   background-color: rgb(53,53,53);
   min-height: 60vh;
   width: 4%;
+  margin-top: -8%;
 }
 #wasteSpace{
   min-height: 56vh;
@@ -56,5 +57,20 @@ body{
   padding-left: 2%;
 }
 #pageFooter h4{
+
+}
+#iphone{
+  height: 80vh;
+  /*width: */
+  position: fixed;
+}
+#appStore{
+  width:50%;
+}
+#projectsMain{
+  text-align: center;
+}
+#projectMargin{
+  margin-left: 10%;
 
 }
