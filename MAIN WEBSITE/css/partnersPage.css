@@ -47,3 +47,6 @@ body{
   text-align: center;
   padding: 1.5%;
 }
+#iphoneFrame{
+  background: url('img/del.png');
+}

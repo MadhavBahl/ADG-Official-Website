@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/tryProjects.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-  <body>
+  <body onload="myFunction()">
 
     <!-- ============ LOADER INTEGRATED ============== -->
 
@@ -72,44 +72,71 @@
     </nav>
 
     <!-- =================== PROJECTS CONTAINER DIV ============== -->
-    <div class="col-xs-1" id="delDesign">
-      <div class="row" id="wasteSpace">
-      </div>
+
+    <div class="container">
       <div class="row">
-        <img id="delta" src="img/del.png">
-      </div>
-    </div>
-    <div id="mainContainer" class="container">
+        <div class="col-xs-1" id="delDesign">
+          <div class="row" id="wasteSpace">
+          </div>
+          <div class="row">
+            <img id="delta" src="img/del.png">
+          </div>
+        </div>
 
-      <!-- DIV FOR IMAGE -->
+        <!-- ============= CONTAINER FOR THE SLIDES OF PROJECTS ========== -->
 
-      <div class="projectMargin">
-        <img src="projectImages/iphone.png" id="iphone" />
-      </div>
-      <div id="projectBack" class="">
-        <h1>HELLO</h1>
-      </div>
-      <div id="projectInfo" col="col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-1">
-        <br />
-        <h1><b> VIT FRESHERS APP </b></h1>
-        <br />
-        <h4 style="text-transform: lowercase;">
-          <span style="text-transform: uppercase;">O</span>ne
-          solution to all the problems faced by the Freshers.
-        </h4>
-        <br />
-        <h3><b>DEVELOPED BY : </b> RISHABH MITTAL</h3>
-        <br />
-        <h3><b>DESIGNED BY : </b> SANTHIM </h3>
-        <br />
-        <a href="https://itunes.apple.com/us/app/vit-freshers/id1185859571?mt=8" target="_blank">
-          <img id="appStore" src="img/appstore.png" alt="CLICK HERE" />
-        </a>
+        <div id="projectsMain" style="margin-top: 10vh;" class="col-xs-10 col-xs-offset-1">
+
+          <div id="iphoneFrame" >
+            <img id="coverProjects" src="projectImages/main.jpg" />
+          </div>
+
+          <div id="projectInfo1" class="col-sm-6 col-sm-offset-5">
+            <br />
+            <h1><b> VIT FRESHERS APP </b></h1>
+            <br />
+            <h4 style="text-transform: lowercase;">
+              <span style="text-transform: uppercase;">O</span>ne
+              solution to all the problems faced by the Freshers.
+            </h4>
+            <br />
+            <h3><b>DEVELOPED BY : </b> RISHABH MITTAL</h3>
+            <br />
+            <h3><b>DESIGNED BY : </b> SANTHIM </h3>
+            <br />
+            <a href="https://itunes.apple.com/us/app/vit-freshers/id1185859571?mt=8" target="_blank">
+              <img id="appStore" src="img/appstore.png" alt="CLICK HERE" />
+            </a>
+          </div>
+
+          <div id="projectInfo1" class="col-sm-4 col-sm-offset-4">
+            <br />
+            <h1><b> VIT FRESHERS APP </b></h1>
+            <br />
+            <h4 style="text-transform: lowercase;">
+              <span style="text-transform: uppercase;">O</span>ne
+              solution to all the problems faced by the Freshers.
+            </h4>
+            <br />
+            <h3><b>DEVELOPED BY : </b> RISHABH MITTAL</h3>
+            <br />
+            <h3><b>DESIGNED BY : </b> SANTHIM </h3>
+            <br />
+            <a href="https://itunes.apple.com/us/app/vit-freshers/id1185859571?mt=8" target="_blank">
+              <img id="appStore" src="img/appstore.png" alt="CLICK HERE" />
+            </a>
+          </div>
+
+
+        </div>
+
       </div>
 
     </div>
     </div>
-    <!-- PAGE FOOTER COMMENTED OUT
+
+    <!-- BOARD FOOTER COMMENTED OUT
+
     <!- ============== Board Footer ============ ->
 
     <div id="pageFooterMain" class="row">
@@ -121,7 +148,9 @@
           <a style="color: black;" href="#"><i class="fa fa-instagram animated touchBounce"></i></a><span class="h4">/</span><span class="h5 animated touchBounce">adgvit </span>
         </h4>
       </div>
-    </div>  -->
+    </div>
+
+    -->
 
     <!-- Script for loader -->
     <script src="js/loader.js"></script>

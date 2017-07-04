@@ -28,7 +28,6 @@ body{
   background-color: rgb(53,53,53);
   min-height: 60vh;
   width: 4%;
-  margin-top: -8%;
 }
 #wasteSpace{
   min-height: 56vh;
@@ -43,6 +42,7 @@ body{
 #delta{
   width:100%;
 }
+
 #pageFooterMain{
   background-color: #c7c7c7;
 }
@@ -59,18 +59,19 @@ body{
 #pageFooter h4{
 
 }
-#iphone{
-  height: 80vh;
-  /*width: */
+#iphoneFrame{
   position: fixed;
+  background: url('../projectImages/iphone.png');
+
+  background-repeat: no-repeat;
+}
+#projectInfo1{
+/*  margin-left: 50vw;*/
+  text-align: center;
+  margin-top: 4%;
+  height: 80vh;
+
 }
 #appStore{
-  width:50%;
-}
-#projectsMain{
-  text-align: center;
-}
-#projectMargin{
-  margin-left: 10%;
-
+  width: 70%;
 }
