@@ -6,6 +6,7 @@ var widthMobile = screen.width;
 var heightMoblie = screen.height;
 var infoOne = document.getElementById('projectInfo1');
 var infoTwo = document.getElementById('projectInfo2');
+var infoThree = document.getElementById('projectInfo3');
 var projectImage = document.getElementById('coverProjects');
 var bodyHeight;
 var disp = document.getElementById('disp');
@@ -27,6 +28,23 @@ if(widthDesktop>500){
   projectImage.style.position = "absolute";
   projectImage.style.clip = "rect(0vw,16vw,27.4vw,0)";
 
+  window.onscroll = function() {
+
+      scrollPos = $(window).scrollTop();
+      vwPos = ((scrollPos*100)/docWidth);
+      bottomPos = vwPos + 27.4;
+      var slowDown = vwPos*0.01;
+
+
+      disp.innerHTML = vwPos;
+      $("#coverProjects").css({
+          "clip": "rect(" + vwPos + "vw,16vw," + bottomPos + "vw,0vw)"
+      });
+      $("#coverProjects").css({
+          "marginTop": 6 - vwPos + "vw",
+      });
+
+  };
 
 
 }else{
@@ -35,22 +53,31 @@ if(widthDesktop>500){
   iphone.style.height = "80vh";
   infoOne.style.display = "none";
   infoTwo.style.display = "none";
+  infoThree.style.display = "none";
+  projectImage.style.marginTop = "23vw";
+  projectImage.style.marginLeft = "12vw";
+  projectImage.style.width = "56vw";
+  projectImage.style.overflow = "hidden";
+  projectImage.style.position = "absolute";
+  projectImage.style.clip = "rect(0vw,56vw,97.4vw,0)";
+  container.style.height = "384vw";
+
+  window.onscroll = function() {
+
+      scrollPos = $(window).scrollTop();
+      vwPos = ((scrollPos*100)/docWidth);
+      bottomPos = vwPos + 97.4;
+      var slowDown = vwPos*0.01;
+
+
+      disp.innerHTML = vwPos;
+      $("#coverProjects").css({
+          "clip": "rect(" + vwPos + "vw,56vw," + bottomPos + "vw,0vw)"
+      });
+      $("#coverProjects").css({
+          "marginTop": 23 - vwPos + "vw",
+      });
+
+      if(vwPos)
+  };
 }
-
-window.onscroll = function() {
-
-    scrollPos = $(window).scrollTop();
-    vwPos = ((scrollPos*100)/docWidth);
-    bottomPos = vwPos + 27.4;
-    var slowDown = vwPos*0.01;
-
-
-    disp.innerHTML = vwPos;
-    $("#coverProjects").css({
-        "clip": "rect(" + vwPos + "vw,16vw," + bottomPos + "vw,0vw)"
-    });
-    $("#coverProjects").css({
-        "marginTop": 6 - vwPos + "vw",
-    });
-
-};

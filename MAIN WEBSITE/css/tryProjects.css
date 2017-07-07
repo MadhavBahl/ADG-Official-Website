@@ -72,6 +72,20 @@ body{
   height: 70vh;
 
 }
+#projectInfo2{
+/*  margin-left: 50vw;*/
+  text-align: center;
+  margin-top: 1%;
+  height: 70vh;
+
+}
+#projectInfo3{
+/*  margin-left: 50vw;*/
+  text-align: center;
+  margin-top: 1%;
+  height: 70vh;
+
+}
 #appStore{
   width: 70%;
 }
