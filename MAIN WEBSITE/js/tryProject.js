@@ -72,7 +72,7 @@ if(widthDesktop>500){
         infoThree.style.display = "block";
       }
       if(bottomPos<(3*27.4)+8){
-        disp.innerHTML = bottomPos;
+        //disp.innerHTML = bottomPos;
 
           tempHt+=1.3;
           $("#container").css({
@@ -94,7 +94,7 @@ if(widthDesktop>500){
   iphone.style.backgroundSize = "80vw";
   iphone.style.height = "80vh";
   infoOne.style.display = "none";
-  //infoTwo.style.display = "none";
+  infoTwo.style.display = "none";
   infoThree.style.display = "none";
   projectImage.style.marginTop = "23vw";
   projectImage.style.marginLeft = "12vw";
@@ -102,7 +102,11 @@ if(widthDesktop>500){
   projectImage.style.overflow = "hidden";
   projectImage.style.position = "absolute";
   projectImage.style.clip = "rect(0vw,56vw,97.4vw,0)";
-  container.style.minHeight = "350vw";
+  //container.style.minHeight = "350vw";
+  tempHt = 324;
+  $("#container").css({
+    "minHeight": tempHt + "vw"
+  });
 
   window.onscroll = function() {
 
@@ -111,15 +115,35 @@ if(widthDesktop>500){
       bottomPos = vwPos + 97.4;
       var slowDown = vwPos*0.01;
 
+      if(vwPos<19){
+        tempHt=274;
+        container.style.transition = "1s";
+        container.style.backgroundColor = "rgb(33,33,33)";
 
-      disp.innerHTML = imgHeight*toVh;
-      $("#coverProjects").css({
-          "clip": "rect(" + vwPos + "vw,56vw," + bottomPos + "vw,0vw)"
-      });
-      $("#coverProjects").css({
-          "marginTop": 23 - vwPos + "vw",
-      });
+      }else if(vwPos<150){
 
+        container.style.transition = "1s";
+        container.style.backgroundColor = "rgb(10,10,10)";
+
+      }else{
+        container.style.transition = "1s";
+        container.style.backgroundColor = "rgb(33,33,33)";
+
+      }
+
+      if(bottomPos<(3*97.4)+25){
+        tempHt+=2.3;
+        $("#container").css({
+          "minHeight": tempHt + "vw"
+        });
+        //disp.innerHTML = imgHeight*toVh;
+        $("#coverProjects").css({
+            "clip": "rect(" + vwPos + "vw,56vw," + bottomPos + "vw,0vw)"
+          });
+          $("#coverProjects").css({
+            "marginTop": 23 - vwPos + "vw",
+          });
+        }
       //if(vwPos)
   };
 }
