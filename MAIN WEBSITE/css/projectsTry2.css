@@ -42,3 +42,40 @@ body{
 #delta{
   width:100%;
 }
+#iphoneFrame{
+  margin-top: 50px;
+  width: 325px;
+  height: 600px;
+  position: fixed;
+  background-image: url("../projectImages/iphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#projectInfo1{
+/*  margin-left: 50vw;*/
+  margin-top: 85px;
+  height:625px;
+  text-align: center;
+
+}
+#projectInfo2{
+/*  margin-left: 50vw;*/
+  margin-top: 85px;
+  height:625px;
+  text-align: center;
+}
+#appStore{
+  width: 70%;
+}
+#projectSlide{
+  height:410px;
+  overflow: hidden;
+  margin-top: 94px;
+  margin-left: 37.3px;
+}
+#freshers{
+  width:228px;
+}
+#dodge{
+    width:228px;
+}
