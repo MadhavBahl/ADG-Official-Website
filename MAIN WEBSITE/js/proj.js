@@ -9,7 +9,7 @@ var widthDesktop =  window.innerWidth;
 if(widthDesktop>520){
   window.onscroll = function() {
     scrollPos = $(window).scrollTop();
-    bottomPos = 410-0.547*scrollPos;
+    bottomPos = 410-0.647*scrollPos;
     //document.getElementById('disp').innerHTML=scrollPos;
     $("#freshers").css({
         "clip": "rect(" + 0 + "px,228px," + bottomPos + "px,0px)"

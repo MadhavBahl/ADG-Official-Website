@@ -86,8 +86,8 @@
         <div style="height:1200px;" class="col-xs-11">
           <div class="row">
             <div id="iphoneFrame" class="col-sm-4 col-xs-offset-1">
-              <div id="projectSlide">
-                <img id="freshers" src="projectImages/vitFreshers.png">
+              <div id="projectSlide" data-target="#imageModal1" data-toggle="modal">
+                <img id="freshers" src="projectImages/vitFreshers.png" >
                 <img id="dodge" src="projectImages/dodge.jpg">
               </div>
 
@@ -95,7 +95,7 @@
 
             <div id="projectInfo1" class="col-sm-6 col-sm-offset-6 hidden-xs">
               <br />
-              <h1><b> VIT FRESHERS APP </b></h1>
+              <h1 style="font-size:3.6em;"><b> VIT FRESHERS APP </b></h1>
               <br />
               <h4 style="text-transform: lowercase;">
                 <span style="text-transform: uppercase;">O</span>ne
@@ -116,17 +116,66 @@
               <h1 style="font-size:3.6em;"><b> DODGE </b></h1>
               <br />
               <h4 style="text-transform: lowercase;">
-                <span style="text-transform: uppercase;">A</span>n app
-                build to ease your stay in vellore
+                <span style="text-transform: uppercase;">A</span> highily addictive game
+                developed using Unity.
               </h4>
               <br />
-              <h3><b>DEVELOPED BY : </b> Eshwa Vinayak</h3>
+              <h3><b>DEVELOPED BY : </b> Justin</h3>
               <br />
               <h3 id="disp"><b>DESIGNED BY : </b> SANTHIM </h3>
               <br />
               <a href="https://itunes.apple.com/us/app/vit-freshers/id1185859571?mt=8" target="_blank">
                 <img id="appStore" src="img/appstore.png" alt="CLICK HERE" />
               </a>
+            </div>
+
+            <!-- =============  MODAL FOR EVENTS PAGE  ============== -->
+
+            <div class="modal fade" id="imageModal1" tabindex="-1">
+              <div class="modal-dialog">
+                <div id="mainModal" class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 class="modal-title"><b>OUR PROJECTS AT ADG</b></h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-xs-3 col-xs-offset-1">
+                        <img style="width: 100%;" src="projectImages/freshers.png" alt="VIT FRESHERS" />
+                      </div>
+                      <div style="text-align:left;" class="col-xs-6 col-xs-offset-1">
+                        <h3><b>VIT FRESHERS APP</b></h3>
+                        <h5 style="text-transform: lowercase;">
+                          <span style="text-transform: uppercase;">A</span>n app
+                          build to ease your stay in vellore
+                        </h5>
+                        <h4><b>DEVELOPED BY : </b> RISHABH MITTAL</h4>
+                        <h4 id="disp"><b>DESIGNED BY : </b> SANTHIM </h4>
+                      </div>
+                    </div>
+
+                    <div style="margin-top:20px;" class="row">
+                      <div class="col-xs-3 col-xs-offset-1">
+                        <img style="width: 100%;" src="projectImages/dodge.png" alt="DODGE" />
+                      </div>
+                      <div style="text-align:left;" class="col-xs-6 col-xs-offset-1">
+                        <h3><b>DODGE</b></h3>
+                        <h5 style="text-transform: lowercase;">
+                          <span style="text-transform: uppercase;">A</span> highily addictive game
+                          developed using Unity.
+                        </h5>
+                        <h4><b>DEVELOPED BY : </b> Justin </h4>
+                        <h4 id="disp"><b>DESIGNED BY : </b> SANTHIM </h4>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><b>Close</b></button>
+                  </div>
+
+                </div>
+              </div>
             </div>
 
           </div>
