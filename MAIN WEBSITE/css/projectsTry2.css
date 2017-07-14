@@ -53,6 +53,7 @@ body{
 }
 #projectInfo1{
 /*  margin-left: 50vw;*/
+/*background-color: rgb(35,35,35);*/
   margin-top: 85px;
   height:625px;
   text-align: center;
@@ -60,6 +61,7 @@ body{
 }
 #projectInfo2{
 /*  margin-left: 50vw;*/
+/*background-color: rgb(29,29,29);*/
   margin-top: 85px;
   height:625px;
   text-align: center;
@@ -71,11 +73,12 @@ body{
   height:410px;
   overflow: hidden;
   margin-top: 94px;
-  margin-left: 37.3px;
+  margin-left: 36.4px;
 }
 #freshers{
   width:228px;
 }
 #dodge{
-    width:228px;
+    width:230px;
+    margin-left: -1px;
 }
