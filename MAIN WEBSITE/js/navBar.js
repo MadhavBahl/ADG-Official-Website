@@ -4,6 +4,7 @@ $(document).ready(function(){
   var startSecondChange = $('#aboutADG');
   var offset = startchange.offset();
   var offSecondset = startSecondChange.offset();
+  //document.getElementById('disp').innerHTML=offset;
   $(document).scroll(function() {
     scroll_start = $(this).scrollTop();
     if(scroll_start >= offset.top && scroll_start < offSecondset.top) {

@@ -40,7 +40,7 @@ body{
 
 }
 .mainSlide{
-  font-family: 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   min-height: 100vh;
   padding-top: 40vh;
   text-align: center;
@@ -86,7 +86,13 @@ body{
   width: 10%;
   padding: 0.7%;
 }
+#TeamsSlide{
+  height:100vh;
+  background-color: rgb(10,10,10);
+
+}
 #aboutADG{
+  padding-top: 7%;
   text-align: center;
   color: rgb(205,205,205);
   background-color: rgb(10,10,10);
@@ -95,6 +101,7 @@ body{
   padding:1%;
 }
 #aboutTeams{
+  padding-top: 4%;
   background-color: rgb(10,10,10);
   text-align: center;
   color: rgb(216,216,216);
@@ -102,19 +109,19 @@ body{
 }
 #iosLogo{
   padding-top: 7%;
-  width: 80%;
+  width: 70%;
 }
 #androidLogo{
   padding-top: 7%;
-  width: 80%;
+  width: 70%;
 }
 #designLogo{
   padding-top: 7%;
-  width: 80%;
+  width: 70%;
 }
 #webLogo{
   padding-top: 7%;
-  width: 70%;
+  width: 60%;
 }
 #contactADG{
   color: rgb(216,216,216);
@@ -192,9 +199,18 @@ body{
 .main-text
 {
     position: absolute;
-    top: 5%;
+    top: 25%;
+    font-weight: bold;
     width: 96.66666666666666%;
-    color: #FFF;
+    /*color: #FFF;*/
+}
+.main-text a
+{
+  color: white;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /*color: #FFF;*/
 }
 /*.carousel-inner .item {
    -webkit-transition: 0.6s ease-in-out top;
@@ -314,15 +330,18 @@ padding-top: 1%;
 #toPoint:hover{
   cursor: pointer;
 }
-.modal-content{
+.modal-dialog{
+  position:relative;
 
+  top:40%;
 }
 #linkAddress{
-  font-family: Roboto;
-  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight:normal;
 }
 #mainHeadText{
-  font-family: Roboto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 120%;
 
 }

@@ -16,11 +16,7 @@ if(widthDesktop>520){
     $("#freshers").css({
         "clip": "rect(" + 0 + "px,228px," + bottomPos2 + "px,0px)"
     });
-    if(bottomPos<410){
-      $("#dodge").css({
-        "marginTop": bottomPos2-2
-      });
-    }
+
   };
 }
 else{
@@ -32,10 +28,6 @@ else{
     $("#freshers").css({
         "clip": "rect(" + 0 + "px,228px," + bottomPos2 + "px,0px)"
     });
-    if(bottomPos<410){
-      $("#dodge").css({
-        "marginTop": bottomPos2-4
-      });
-    }
+
   };
 }
