@@ -16,8 +16,14 @@ body{
   font-size: 120%;
   background-color: rgb(75,75,77);
 }
+#navLinks li a{
+  font-size: 1.12em;
+}
 #navBar{
   background-color: black;
+  -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
 }
 .container{
   width: 100%;
@@ -77,7 +83,7 @@ body{
   text-align: center;
   margin-top: 1%;
   height: 70vh;
-  
+
 
 }
 #projectInfo3{

@@ -14,6 +14,9 @@ body{
 #navBar{
   background: rgba(235,235,235,0.4);
   border-color: transparent;
+  -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.21);
 }
 #navLinks li a{
   color: rgb(20,20,20);
@@ -92,17 +95,20 @@ body{
 
 }
 #aboutADG{
-  padding-top: 7%;
+  padding-top: 5%;
+  height: 35vh;
+  padding-bottom: 2%;
   text-align: center;
   color: rgb(205,205,205);
-  background-color: rgb(10,10,10);
+  background-color: rgb(32,32,32);
 }
 #aboutADG h1,h4{
   padding:1%;
 }
 #aboutTeams{
-  padding-top: 4%;
-  background-color: rgb(10,10,10);
+  height: 65vh;
+  padding-top: 2%;
+  background-color: rgb(32,32,32);
   text-align: center;
   color: rgb(216,216,216);
   padding-bottom: 4%;
@@ -121,7 +127,7 @@ body{
 }
 #webLogo{
   padding-top: 7%;
-  width: 60%;
+  width: 70%;
 }
 #contactADG{
   color: rgb(216,216,216);
@@ -200,17 +206,20 @@ body{
 {
     position: absolute;
     top: 25%;
-    font-weight: bold;
+
     width: 96.66666666666666%;
     /*color: #FFF;*/
 }
 .main-text a
 {
-  color: white;
-    font-weight: bold;
+  /*color: white;*/
+    font-weight: lighter;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
     /*color: #FFF;*/
+}
+.main-text h2 a{
+  font-weight: 300;
 }
 /*.carousel-inner .item {
    -webkit-transition: 0.6s ease-in-out top;

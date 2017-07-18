@@ -64,11 +64,12 @@
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul id="navLinks" class="nav navbar-nav navbar-right">
             <li><a id="linkAddress" class="lAd link1" href="#aboutADG" >Home</a></li>
-            <li><a id="linkAddress" class="lAd" data-target="#imageModal1" data-toggle="modal" >Events</a></li>
-            <li><a id="linkAddress" class="lAd" href="team.html">Team</a></li>
-            <li><a id="linkAddress" class="lAd" href="projectsTry2.html">Projects</a></li>
-            <li><a id="linkAddress" class="lAd" href="partners.html">Partners</a></li>
-            <li><a id="linkAddress" class="lAd link2" href="#contactADG">Contact Us</a></li>
+            <li><a id="linkAddress" class="lAd anchor2" href="#section2">Events</a></li>
+            <li><a id="linkAddress" class="lAd anchor2" href="#section2">Team</a></li>
+            <li><a id="linkAddress" class="lAd anchor2" href="#section2">Projects</a></li>
+            <li><a id="linkAddress" class="lAd anchor2" href="#section2">Partners</a></li>
+            <li><a id="linkAddress" class="lAd link1" href="home.html #aboutADG" >About Us</a></li>
+            <li><a id="linkAddress" class="lAd link2" href="home.html #contactADG">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -127,7 +128,7 @@
             </a>
             <div class="main-text">
                 <div id="toPoint" class="col-xs-12 text-center">
-                  <h2><a class="mText" style="color: white;" data-target="#imageModal1" data-toggle="modal">EVENTS</a></h2>
+                  <h2><a id="disp" class="mText" style="color: white;" data-target="#imageModal1" data-toggle="modal">EVENTS</a></h2>
                   <h5><a class="mText" style="color: white;" data-target="#imageModal1" data-toggle="modal">Come see us</a></h5>
                 </div>
               </div>
@@ -237,8 +238,8 @@
             </a>
             <div class="main-text">
               <div class="col-xs-12 text-center">
-                <h2><a class="mText" style="color: white;" href="projects.html">PROJECTS</a></h2>
-                <h5><a class="mText" style="color: white;" href="projects.html">See what we have made</a></h5>
+                <h2><a class="mText" style="color: white;" href="projectsTry2.html">PROJECTS</a></h2>
+                <h5><a class="mText" style="color: white;" href="projectsTry2.html">See what we have made</a></h5>
               </div>
             </div>
           </div>
@@ -288,8 +289,8 @@
       <div id="TeamsSlide">
       <div id="aboutADG" class="row">
         <div class="col-md-12">
-          <h1>ABOUT US</h1>
-          <h4>We bring out the developer in you.
+          <h1 style="font-weight: 450;">ABOUT US</h1>
+          <h4 style="font-weight: lighter;">We bring out the developer in you.
             Become not only someone who deploys apps,
             but also builds the world Brick by Brick
           </h4>
@@ -300,7 +301,7 @@
           <div class="animated touchBounce">
             <img id="iosLogo" src="img/ios_logo.png" alt="IOS DEV">
           </div>
-          <h2>iOS</h2>
+          <h2><span style="text-transform: lowercase; font-size: 0.8em">i</span>OS</h2>
           <h4>ABCDEFGHIJKLMNOP</h4>
         </div>
         <div class="col-md-3 col-xs-6 col-sm-6">
@@ -378,8 +379,7 @@
     </div>
 
 
-    <!-- Script for loader -->
-    <script src="js/loader.js"></script>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -388,6 +388,12 @@
     <script src="js/navBar.js"></script>
     <!-- Script for anchor -->
     <script>
+    $('.anchor2').click(function(){
+      $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+      }, 400);
+      return false;
+    });
       $('#anchor1').click(function(){
         $('html, body').animate({
           scrollTop: $( $(this).attr('href') ).offset().top

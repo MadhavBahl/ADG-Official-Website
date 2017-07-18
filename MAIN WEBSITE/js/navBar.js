@@ -4,18 +4,18 @@ $(document).ready(function(){
   var startSecondChange = $('#aboutADG');
   var offset = startchange.offset();
   var offSecondset = startSecondChange.offset();
-  //document.getElementById('disp').innerHTML=offset;
+  //document.getElementById('disp').innerHTML=offset.top;
   $(document).scroll(function() {
     scroll_start = $(this).scrollTop();
-    if(scroll_start >= offset.top && scroll_start < offSecondset.top) {
+    if(scroll_start >= offset.top-49 && scroll_start < offSecondset.top -49) {
       $('#navBar').css('transition','1s');
       $('#navBar').css('background-color', '#202020');
       $('.lAd').css('color', 'rgb(230,230,230)');
       console.log('At section 2');
     }
-    else if(scroll_start >= offSecondset.top){
+    else if(scroll_start >= offSecondset.top-49){
       $('#navBar').css('transition','1s');
-      $('#navBar').css('background-color', 'rgba(15,15,15,0.8)');
+      $('#navBar').css('background-color', 'rgba(15,15,15,1)');
       $('.lAd').css('color', 'rgb(240,240,240)');
       console.log('At section 3');
     }

@@ -2,6 +2,7 @@ body{
   background-color: #202020;
   overflow-x: hidden;
   color: white;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 #adgLogo{
   width: 40%;
@@ -11,18 +12,25 @@ body{
 .container-fluid{
   background-color: rgb(11,11,11);
 }
+#navLinks li a{
+  font-size: 1.12em;
+}
 #navLinks li:hover{
   transition: 0.5s;
   font-size: 120%;
   background-color: rgb(55,55,55);
 }
+.modal-dialog{
+  position:relative;
 
+  top:40%;
+}
 #navBar{
 
   background-color: rgb(10,10,10);
   -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
--moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
 }
 .container{
   background-color: #202020;
@@ -38,10 +46,12 @@ box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
 }
 .memberTextOdd{
   text-align: left;
+  padding-top: 5%;
   /*width:40%;*/
 }
 .memberTextEven{
   text-align: left;
+  padding-top: 5%;
   /*width:40%;*/
 }
 /*.memberPic{
@@ -54,6 +64,7 @@ box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
 }
 .memberInfo{
   margin-top: 4%;
+
   margin-bottom: 4%;
 }
 #pageFooterMain{
