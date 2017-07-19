@@ -59,6 +59,9 @@ body{
 #section2 .col-md-6{
   height: 50vh;
 }
+#section2a .col-md-6{
+  height: 50vh;
+}
 #adgEvents{
   background-color: rgb(236,236,236);
   text-align: center;
@@ -404,4 +407,16 @@ padding-top: 1%;
 #workshopEvents:hover{
   transition: 1.5s;
   background-color: rgba(34,34,34,0.5);
+}
+#premium{
+  padding-left: 0%;
+  color: white;
+}
+#classRoom{
+  padding-left: 5%;
+  color: white;
+}
+#workShop{
+  padding-left: 5%;
+  color: white;
 }

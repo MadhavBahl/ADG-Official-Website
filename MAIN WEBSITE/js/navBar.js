@@ -1,4 +1,9 @@
+var overlay = document.getElementById("overlay");
+var mainContent = document.getElementById("mainContent");
+mainContent.style.display = 'none';
 $(document).ready(function(){
+  overlay.style.display = 'none';
+  mainContent.style.display = 'block';
   var scroll_start = 0;
   var startchange = $('#section2');
   var startSecondChange = $('#aboutADG');
@@ -24,6 +29,7 @@ $(document).ready(function(){
       $('#linkAddress:hover').css('color: rgb(230,230,230);');
       $('#navBar').css('background-color', 'rgba(235,235,235,0.3)');
       $('.lAd').css('color', 'rgb(20,20,20)');
+      console.log('Other Sections')
     }
   });
 });
