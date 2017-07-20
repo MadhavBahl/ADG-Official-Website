@@ -120,10 +120,10 @@
                 <div id="toPoint" class="col-xs-12 text-center">
                   <h2><a id="disp" class="mText" style="color: white;" data-target="#imageModal1" data-toggle="modal">EVENTS</a></h2>
                   <h5 class="mText" style="color: white;" >Come see us</h5>
-                  <h4>
-                    <a id="premium">PREMIUM</a>
-                    <a id="classRoom">CLASSROOM</a>
-                    <a id="workShop">WORKSHOP</a>
+                  <h4 id="links">
+                    <a id="premium" class="animated touchBounce" href="premiumEvents.html">PREMIUM</a>
+                    <a id="classRoom" class="animated touchBounce" href="classroomEvents.html">CLASSROOM</a>
+                    <a id="workShop" class="animated touchBounce" href="workshopEvents.html">WORKSHOP</a>
                   </h4>
                 </div>
               </div>
@@ -175,26 +175,7 @@
         </div>
       </div>
 
-      <!-- =============  MODAL FOR EVENTS PAGE  ============== -->
 
-    <!--  <div class="modal fade" id="imageModal1" tabindex="-1">
-        <div class="modal-dialog">
-          <div id="mainModal" class="modal-content">
-            <div class="row">
-              <div id="premiumEvents" class="col-xs-4">
-                <h4><a style="color: black;" href="premiumEvents.html"> PREMIUM </a></h4>
-              </div>
-              <div id="classroomEvents" class="col-xs-4">
-                <h4><a style="color: black;" href="classroomEvents.html"> CLASSROOM </a></h4>
-              </div>
-              <div id="workshopEvents" class="col-xs-4">
-                <h4><a style="color: black;" href="workshopEvents.html"> WORKSHOP </a></h4>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div> -->
 
       <div id="section2a" class="row">
         <div class="col-md-6 col-xs-12 " id="adgProjects">
@@ -386,11 +367,30 @@
     <!-- Script for anchor -->
     <script>
     $('.anchor2').click(function(){
+      //$('body *').not('#imageCarousel1 *').css('display','none');
       $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
       }, 400);
       return false;
     });
+  /*  $('.anchor3').click(function(){
+      $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+      }, 400);
+      return false;
+    });
+    $('.anchor4').click(function(){
+      $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+      }, 400);
+      return false;
+    });
+    $('.anchor5').click(function(){
+      $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+      }, 400);
+      return false;
+    }); */
       $('#anchor1').click(function(){
         $('html, body').animate({
           scrollTop: $( $(this).attr('href') ).offset().top

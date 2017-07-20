@@ -65,6 +65,14 @@ body{
   text-align: center;
 
 }
+#projectInfo4{
+/*  margin-left: 50vw;*/
+/*background-color: rgb(35,35,35);*/
+  margin-top: 85px;
+  height:625px;
+  text-align: center;
+
+}
 #projectInfo2{
 /*  margin-left: 50vw;*/
 /*background-color: rgb(29,29,29);*/
@@ -92,12 +100,17 @@ body{
   width:228px;
 }
 #dodge{
-    width:230px;
+    width:232px;
     margin-left: -1px;
+
 }
 #vu{
     width:230px;
     margin-left: -1px;
+}
+#walkin{
+    width:230px;
+    margin-left: -3px;
 }
 #mainModal{
   color: rgb(15,15,15);

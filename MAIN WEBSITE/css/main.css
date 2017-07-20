@@ -1,6 +1,7 @@
 body{
   background-color: rgb(21,21,21);
-    overflow-x: hidden;
+  overflow-x: hidden;
+
 }
 .container{
   width: 100%;
@@ -43,7 +44,7 @@ body{
 
 }
 .mainSlide{
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: San Francisco, sans-serif;
   min-height: 100vh;
   padding-top: 40vh;
   text-align: center;
@@ -217,7 +218,7 @@ body{
 {
   /*color: white;*/
     font-weight: lighter;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: San Francisco, sans-serif;
 
     /*color: #FFF;*/
 }
@@ -348,12 +349,12 @@ padding-top: 1%;
   top:40%;
 }
 #linkAddress{
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: San Francisco, sans-serif;
   font-size: 14px;
   font-weight:normal;
 }
 #mainHeadText{
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: San Francisco, sans-serif;
   font-size: 120%;
 
 }

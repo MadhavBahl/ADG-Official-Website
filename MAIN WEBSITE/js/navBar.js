@@ -4,11 +4,24 @@ mainContent.style.display = 'none';
 $(document).ready(function(){
   overlay.style.display = 'none';
   mainContent.style.display = 'block';
+  $("#links").css("display", "none");
   var scroll_start = 0;
   var startchange = $('#section2');
   var startSecondChange = $('#aboutADG');
   var offset = startchange.offset();
   var offSecondset = startSecondChange.offset();
+
+  $("#imageCarousel1").hover(function(){
+    /*$("#links").css("transition", "1s");
+    $("#links").css("color", "rgba(255,255,255,1.0)");
+    $("#links").css("display", "block");*/
+    $("#links").fadeIn();
+    }, function(){
+    
+    $("#links").fadeOut();
+
+  });
+
   //document.getElementById('disp').innerHTML=offset.top;
   $(document).scroll(function() {
     scroll_start = $(this).scrollTop();

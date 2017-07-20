@@ -115,3 +115,8 @@ body{
   width: 10vh;
   margin-top: -5%;
 }
+h2{
+  font-family: San Francisco, sans-serif;
+  font-size: 1.4em;
+  font-weight: lighter;
+}

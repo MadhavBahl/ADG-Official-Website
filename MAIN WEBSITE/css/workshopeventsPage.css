@@ -1,6 +1,7 @@
 body{
   background-color: rgb(254,254,254);
     overflow-x: hidden;
+    font-family: San Francisco, sans-serif;
 }
 #adgLogo{
   width: 40%;
@@ -12,10 +13,12 @@ body{
 }
 #navLinks li:hover{
   transition: 0.5s;
+  font-family: San Francisco, sans-serif;
   font-size: 120%;
   background-color: rgb(75,75,77);
 }
 #navLinks li a{
+  font-family: San Francisco, sans-serif;
   font-size: 1.12em;
 }
 #navBar{
@@ -107,14 +110,19 @@ body{
 #img1{
   height: 50vh;
 }
-#img1:hover{
+/*#img1:hover{
   transition: 0.25s;
   height: 50.5vh;
-}
+}*/
 .sec2Logo{
   display: flex;
   top: 0%;
   left: 0%;
   width: 10vh;
   margin-top: -5%;
+}
+h2{
+  font-family: San Francisco, sans-serif;
+  font-size: 1.4em;
+  font-weight: lighter;
 }
