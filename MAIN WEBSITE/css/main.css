@@ -1,3 +1,31 @@
+@font-face{
+    src:url("../fonts/Roboto-Light.ttf");
+    font-family:roboto;
+}
+
+@font-face{
+    src:url("../fonts/SanFrancis.ttf");
+    font-family:sanf;
+}
+@font-face{
+    src:url("../fonts/Helvetica Neue CE 35 Thin.ttf");
+    font-family:hel_head;
+}
+
+@font-face{
+    src:url("../fonts/Helvetica.otf");
+    font-family:hel;
+}
+
+@font-face{
+    src:url("../fonts/HelveticaNeue.ttf");
+    font-family:hel_n;
+}
+
+@font-face{
+    src:url("../fonts/TCM.ttf");
+    font-family:nav_font;
+}
 body{
   background-color: rgb(21,21,21);
   overflow-x: hidden;
@@ -13,18 +41,19 @@ body{
   margin-top: -10%;
 }
 #navBar{
-  background: rgba(235,235,235,0.4);
+  background: rgba(235,235,235,0.0);
   border-color: transparent;
-  -webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
+  /*-webkit-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
   -moz-box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.29);
-  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.21);
+  box-shadow: 1px 2px 20px 1px rgba(0,0,0,0.21);*/
 }
 #navLinks li a{
-  color: rgb(20,20,20);
+  color: rgb(255,255,255);
+  font-size: 120%;
 }
 #navLinks li:hover{
   transition: 0.5s;
-  font-size: 120%;
+  font-size: 140%;
   background-color: rgba(85,85,87,0.7);
 }
 #linkAddress:hover{
@@ -35,16 +64,20 @@ body{
 
 }
 #section1{
-  background-image: url('../img/bkg.jpg');
+  background-image: url('../img/carousel1a.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+#mainCreate{
+  font-family:nav_font;
+  font-weight: lighter;
 }
 .centerTextHead{
 
 }
 .mainSlide{
-  font-family: San Francisco, sans-serif;
+  font-family:hel_head;
   min-height: 100vh;
   padding-top: 40vh;
   text-align: center;
@@ -218,12 +251,15 @@ body{
 {
   /*color: white;*/
     font-weight: lighter;
-    font-family: San Francisco, sans-serif;
+
 
     /*color: #FFF;*/
 }
 .main-text h2 a{
   font-weight: 300;
+  font-size: 1.12em;
+  font-family:hel;
+  font-weight: normal;
 }
 /*.carousel-inner .item {
    -webkit-transition: 0.6s ease-in-out top;
@@ -235,13 +271,13 @@ body{
 
 
 .arrow {
-  margin-top: 10%;
+  margin-top: 5%;
 
   left: 50%;
   margin-left:-20px;
 }
 .arrow a{
-  color: black;
+  color: white;
 }
 
 /* ================== CSS for Bounce animation ================== */
@@ -349,15 +385,21 @@ padding-top: 1%;
   top:40%;
 }
 #linkAddress{
-  font-family: San Francisco, sans-serif;
+  font-family:sanf;
   font-size: 14px;
   font-weight:normal;
 }
-#mainHeadText{
-  font-family: San Francisco, sans-serif;
-  font-size: 120%;
-
+#eventsText{
+  font-family:hel;
+  font-weight: normal;
 }
+#mainHeadText{
+  font-family:hel_head;
+  font-size: 120%;
+  color: rgba(255,255,255,0.7);
+  margin-top: 10%;
+}
+
 #formInput{
   color: white;
 }

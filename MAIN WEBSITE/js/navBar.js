@@ -1,9 +1,15 @@
 var overlay = document.getElementById("overlay");
 var mainContent = document.getElementById("mainContent");
+overlay.style.display = 'block';
 mainContent.style.display = 'none';
+
 $(document).ready(function(){
+  setTimeout(
+  function()
+  {
   overlay.style.display = 'none';
   mainContent.style.display = 'block';
+
   $("#links").css("display", "none");
   var scroll_start = 0;
   var startchange = $('#section2');
@@ -17,7 +23,7 @@ $(document).ready(function(){
     $("#links").css("display", "block");*/
     $("#links").fadeIn();
     }, function(){
-    
+
     $("#links").fadeOut();
 
   });
@@ -40,9 +46,10 @@ $(document).ready(function(){
     else {
       $('#navBar').css('transition','1s');
       $('#linkAddress:hover').css('color: rgb(230,230,230);');
-      $('#navBar').css('background-color', 'rgba(235,235,235,0.3)');
-      $('.lAd').css('color', 'rgb(20,20,20)');
+      $('#navBar').css('background-color', 'rgba(235,235,235,0.02)');
+      $('.lAd').css('color', 'rgb(255,255,255)');
       console.log('Other Sections')
     }
   });
+}, 2100);
 });
