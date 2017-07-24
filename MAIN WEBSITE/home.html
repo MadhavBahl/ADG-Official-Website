@@ -100,10 +100,10 @@
             </ol>
             <div data-target="#imageModal1" data-toggle="modal" class="carousel-inner">
               <div id="imgCarousel" class="item active">
-                <img id="carouselImages" src="img/MacAnApp/cover.jpg" class="img-responsive" />
+                <img id="carouselImages" src="img/Appathon/0.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
-                <img id="carouselImages" src="img/Appathon/4.jpg" class="img-responsive" />
+                <img id="carouselImages" src="img/Appathon/0.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
                 <img id="carouselImages" src="img/Appathon/0.jpg" class="img-responsive" />
@@ -213,8 +213,8 @@
             </a>
             <div class="main-text">
               <div class="col-xs-12 text-center">
-                <h2><a id="projectText" style="color: white;" href="projectsTry2.html">PROJECTS</a></h2>
-                <h5><a class="mText" style="color: white;" href="projectsTry2.html">See what we have made</a></h5>
+                <h2><a id="projectText" style="color: white;" href="projects.html">PROJECTS</a></h2>
+                <h5><a class="mText" style="color: white;" href="projects.html">See what we have made</a></h5>
               </div>
             </div>
           </div>
@@ -234,13 +234,13 @@
             </ol>
             <div class="carousel-inner">
               <div id="imgCarousel" class="item active">
-                <img id="carouselImages" src="partners/p1.jpg" class="img-responsive" />
+                <img id="carouselImages" src="partners/ptemp.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
-                <img id="carouselImages" src="partners/p2.jpg" class="img-responsive" />
+                <img id="carouselImages" src="partners/ptemp.jpg" class="img-responsive" />
               </div>
               <div id="imgCarousel" class="item">
-                <img id="carouselImages" src="partners/p7.jpg" class="img-responsive" />
+                <img id="carouselImages" src="partners/ptemp.jpg" class="img-responsive" />
               </div>
             </div>
             <a href="#imageCarousel4" class="carousel-control left" data-slide="prev">
@@ -313,26 +313,26 @@
         <div id="formLeft" class="col-sm-offset-2 col-sm-4 col-xs-12">
           <div id="formName" class="row">
             <div class="col-xs-12">
-              <input id="formInput" class="form-control" type="text" placeholder="Your Name" />
+              <input id="formInput" class="form-control" type="text" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
             </div>
           </div>
           <div id="formName" class="row">
             <div class="col-xs-12">
-              <input id="formInput" class="form-control" type="text" placeholder="Your E-Mail" />
+              <input id="formInput" class="form-control" type="text" placeholder="Your E-Mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your E-mail'" />
             </div>
           </div>
           <div id="formName" class="row">
             <div class="col-xs-12">
-              <input id="formInput" class="form-control" type="number" placeholder="Your Mobile" />
+              <input id="formInput" class="form-control" type="long" placeholder="Your Mobile" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your mobile'" />
             </div>
           </div>
         </div>
         <div class="col-sm-4 col-xs-12">
           <div id="formName" class="row">
             <div class="col-xs-12">
-              <input id="formRight" class="form-control" type="text" placeholder="Your Message" />
+              <input id="formRight" class="form-control" type="text" placeholder="Your Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message'" />
             </div>
-            <button id="submitButton" type="submit" class="btn"> SUBMIT </button>
+            <button id="submitButton" type="submit" class="btn" onclick="myAlertBox()"> SUBMIT </button>
           </div>
         </div>
       </div>
@@ -365,7 +365,9 @@
 
     <!-- Script for anchor -->
     <script>
-
+    function myAlertBox() {
+      alert("Your message was sent successfully!!!!");
+    }
     $('.anchor2').click(function(){
 
       //$('body *').not('#imageCarousel1 *').css('display','none');
@@ -373,12 +375,12 @@
         scrollTop: $( $(this).attr('href') ).offset().top
       }, 400);
 
-      $('#eventsText').css('transition','0.8s');
-      $('#eventsText').css('font-size','1.5em');
+      $('#eventsText').css('transition','0.6s');
+      $('#eventsText').css('font-size','1.7em');
       setTimeout(
         function(){
             $('#eventsText').css('font-size','1.12em');
-        },800);
+        },600);
 
       return false;
     });
@@ -389,12 +391,12 @@
         scrollTop: $( $(this).attr('href') ).offset().top
       }, 400);
 
-      $('#teamText').css('transition','0.8s');
-      $('#teamText').css('font-size','1.5em');
+      $('#teamText').css('transition','0.6s');
+      $('#teamText').css('font-size','1.7em');
       setTimeout(
         function(){
             $('#teamText').css('font-size','1.12em');
-        },800);
+        },600);
 
       return false;
     });
@@ -405,12 +407,12 @@
         scrollTop: $( $(this).attr('href') ).offset().top
       }, 400);
 
-      $('#projectText').css('transition','0.8s');
-      $('#projectText').css('font-size','1.5em');
+      $('#projectText').css('transition','0.6s');
+      $('#projectText').css('font-size','1.7em');
       setTimeout(
         function(){
             $('#projectText').css('font-size','1.12em');
-        },800);
+        },600);
 
       return false;
     });
@@ -421,12 +423,12 @@
         scrollTop: $( $(this).attr('href') ).offset().top
       }, 400);
 
-      $('#partnerText').css('transition','0.8s');
-      $('#partnerText').css('font-size','1.5em');
+      $('#partnerText').css('transition','0.4s');
+      $('#partnerText').css('font-size','1.7em');
       setTimeout(
         function(){
             $('#partnerText').css('font-size','1.12em');
-        },800);
+        },400);
 
       return false;
     });

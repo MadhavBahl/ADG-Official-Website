@@ -31,6 +31,9 @@ body{
   overflow-x: hidden;
 
 }
+a:hover{
+  text-decoration: none;
+}
 .container{
   width: 100%;
   margin: 0;
@@ -231,9 +234,8 @@ body{
   margin-right: -3%;
 }
 #carouselImages{
-
-  width: 100%;
-  height:70vh;
+  height:110%;
+  width: auto;
   align-items: center;
     margin: 0;
   margin-bottom: 20vh;
