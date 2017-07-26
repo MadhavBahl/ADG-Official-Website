@@ -95,23 +95,65 @@
             </div>
 
             <div class="modal fade" id="imageModal1" tabindex="-1">
+              <div id="modal-dialog" class="modal-dialog">
+                <div id="mainModal1" class="modal-content">
+
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h3 id="headTextModal"  data-dismiss="modal"><img style="width: 40px;" src="img/adg-logo.png" />
+                        <a> ADG - WE MAKE YOU, YOUR BEST VERSION </a>
+                      </h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div id="leftHeadText" class="col-sm-5 col-sm-offset-1 col-xs-12">
+                      <h1> APPATHON </h1>
+                      <button id="viewGallery" type="button" class="btn" data-target="#galleryModal1" data-toggle="modal">VIEW MORE DETAILS</button>
+                    </div>
+
+                    <div id="rightHeadText" class="col-sm-4 col-sm-offset-1 hidden-xs">
+                      <p style="color: white;"><br /> App-A-Thon is an annual 36 hour
+                        software hackathon aimed at inventing,
+                        designing and developing mobile or web
+                        applications on any platform on a generic
+                        problem statement.
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div id="closeModalBtn" class="col-xs-12">
+                      <button id="closeBtn" type="button" id="closeModal" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- ========= Gallery Carousel 1 ========= -->
+
+            <div class="modal fade" id="galleryModal1" tabindex="-1">
               <div class="modal-dialog">
                 <div id="mainModal" class="modal-content">
                   <div class="row">
                     <div class="col-xs-12">
                       <div style="padding: 2%;">
                         <button style="color: white;" class="close" data-dismiss="modal">&times;</button>
-                        <h1 style="color: white;" class="modal-title">APPATHON</h1>
+                        <h1 style="color: white;" class="modal-title"> Appathon </h1>
                       </div>
-                      <div id="eventCarousel1" class="carousel slide" data-interval="1500" data-ride="carousel">
+
+                      <div id="eventCarousel2" class="carousel slide" data-interval="1800" data-ride="carousel">
                         <ol class="carousel-indicators">
-                          <li data-target="#eventCarousel1" data-slide-to="0" class="active"></li>
-                          <li data-target="#eventCarousel1" data-slide-to="1"></li>
-                          <li data-target="#eventCarousel1" data-slide-to="2"></li>
-                          <li data-target="#eventCarousel1" data-slide-to="3"></li>
-                          <li data-target="#eventCarousel1" data-slide-to="4"></li>
-                          <li data-target="#eventCarousel1" data-slide-to="5"></li>
-                          <li data-target="#eventCarousel1" data-slide-to="6"></li>
+                          <li data-target="#eventCarousel2" data-slide-to="0" class="active"></li>
+                          <li data-target="#eventCarousel2" data-slide-to="1"></li>
+                          <li data-target="#eventCarousel2" data-slide-to="2"></li>
+                          <li data-target="#eventCarousel2" data-slide-to="3"></li>
+                          <li data-target="#eventCarousel2" data-slide-to="4"></li>
+                          <li data-target="#eventCarousel2" data-slide-to="5"></li>
+                          <li data-target="#eventCarousel2" data-slide-to="6"></li>
                         </ol>
                         <div data-target="#eventModal1" data-toggle="modal" class="carousel-inner">
                           <div id="imgCarousel" class="item active">
@@ -136,10 +178,10 @@
                             <img id="carouselImages1" src="img/Appathon/6.jpg" class="img-responsive" />
                           </div>
                         </div>
-                        <a href="#eventCarousel1" class="carousel-control left" data-slide="prev">
+                        <a href="#eventCarousel2" class="carousel-control left" data-slide="prev">
                           <span class="glyphicon glyphicon-chevron-left"></span>
                         </a>
-                        <a href="#eventCarousel1" class="carousel-control right" data-slide="next">
+                        <a href="#eventCarousel2" class="carousel-control right" data-slide="next">
                           <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
                         <div class="main-text">
@@ -148,12 +190,14 @@
                           </div>
                         </div>
                       </div>
+
                       <p style="color: white;"><br /> App-A-Thon is an annual 36 hour
                         software hackathon aimed at inventing,
                         designing and developing mobile or web
                         applications on any platform on a generic
                         problem statement.
                       </p>
+
                     </div>
                   </div>
 
@@ -258,5 +302,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Script for making modal responsive -->
+    <script src="js/premiumModal.js"></script>
   </body>
 </html>

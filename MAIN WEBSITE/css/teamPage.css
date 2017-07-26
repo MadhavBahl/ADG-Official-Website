@@ -1,3 +1,21 @@
+@font-face{
+    src:url("../fonts/SanFrancis.ttf");
+    font-family:sanf;
+}
+@font-face{
+    src:url("../fonts/Helvetica Neue CE 35 Thin.ttf");
+    font-family:hel_head;
+}
+
+@font-face{
+    src:url("../fonts/Helvetica.otf");
+    font-family:hel;
+}
+
+@font-face{
+    src:url("../fonts/HelveticaNeue.ttf");
+    font-family:hel_n;
+}
 body{
   background-color: #202020;
   overflow-x: hidden;
@@ -66,6 +84,15 @@ body{
   margin-top: 4%;
 
   margin-bottom: 4%;
+}
+h1{
+  font-family: hel;
+}
+h5{
+  font-family: hel_n;
+  font-size: 150%;
+  font-weight: bold;
+  font-style: italic;
 }
 #pageFooterMain{
   background-color: #c7c7c7;
