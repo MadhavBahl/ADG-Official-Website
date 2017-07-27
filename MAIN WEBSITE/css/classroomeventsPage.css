@@ -80,10 +80,112 @@ body{
 #eventModal1{
 
 }
+#modal-dialog{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0%;
+  margin-left: 0%;
+  top: 0%;
+  left: 0%;
+}
+#mainModal1{
+/*  position: fixed;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  text-align: justify;*/
+  left: 0;
+  margin-left: 0%;
+  height: 100vh;
+  padding: 1.5%;
+  background-color: rgba(10,10,10,0.7);
+}
 #mainModal{
+  margin-top: 7%;
   text-align: justify;
   padding: 1.5%;
+  background-color: rgba(10,10,10,0.99);
+}
+
+#headTextModal{
+  margin-left: 0%;
+  text-align: center;
+  color: white;
+}
+#headTextModal a{
+
+  color: white;
+  text-decoration: none;
+}
+#headTextModal a:hover{
+  cursor: pointer;
+}
+#leftHeadText h1{
+  font-size: 450%;
+}
+#leftHeadText{
+  border-right: thick solid #ffffff;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+.gallery{
+  margin-top: 10%;
   background-color: black;
+}
+#galleryModal4{
+  background-color: rgba(10,10,10,0.95);
+}
+#galleryModal3{
+  background-color: rgba(10,10,10,0.95);
+}
+#galleryModal2{
+  background-color: rgba(10,10,10,0.95);
+}
+#galleryModal1{
+  background-color: rgba(10,10,10,0.95);
+}
+#viewGallery{
+  margin-top: 7%;
+  padding: 2%;
+  background-color: rgba(0,0,0,0);
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 2px solid #ffffff;
+}
+#viewGallery:hover{
+  color: rgb(205,205,215);
+}
+#rightHeadText{
+  margin-top: 9%;
+}
+#rightHeadText p{
+  font-size: 150%;
+}
+#closeModalBtn{
+  text-align: center;
+  margin-top: 10%;
+}
+#closeBtn{
+  font-size: 120%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0,0,0,0);
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 2px solid #ffffff;
+  color: white;
+}
+#img2{
+  height: 50vh;
+    width:100%;
 }
 .main-text
 {

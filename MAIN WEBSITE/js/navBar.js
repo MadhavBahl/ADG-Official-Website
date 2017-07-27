@@ -3,7 +3,12 @@ var mainContent = document.getElementById("mainContent");
 overlay.style.display = 'block';
 mainContent.style.display = 'none';
 
+
+
 $(document).ready(function(){
+
+
+
   setTimeout(
   function()
   {
@@ -52,4 +57,5 @@ $(document).ready(function(){
     }
   });
 }, 2100);
+
 });

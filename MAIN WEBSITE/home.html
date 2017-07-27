@@ -52,13 +52,13 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul id="navLinks" class="nav navbar-nav navbar-right">
-            <li><a id="disp" class="lAd link3" href="#section1" >Home</a></li>
-            <li><a id="linkAddress" class="lAd anchor2" href="#imageCarousel1">Events</a></li>
-            <li><a id="linkAddress" class="lAd anchor3" href="#imageCarousel2">Team</a></li>
-            <li><a id="linkAddress" class="lAd anchor4" href="#imageCarousel3">Projects</a></li>
-            <li><a id="linkAddress" class="lAd anchor5" href="#imageCarousel4">Partners</a></li>
-            <li><a id="linkAddress" class="lAd link1" href="#aboutADG" >About Us</a></li>
-            <li><a id="linkAddress" class="lAd link2" href="#contactADG">Contact Us</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="disp" class="lAd link3" href="#section1" >Home</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd anchor2" href="#imageCarousel1">Events</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd anchor3" href="#imageCarousel2">Team</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd anchor4" href="#imageCarousel3">Projects</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd anchor5" href="#imageCarousel4">Partners</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd link1" href="#aboutADG" >About Us</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd link2" href="#contactADG">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -92,7 +92,7 @@
 
           <!-- IMAGE CAROUSEL 1 -->
 
-          <div id="imageCarousel1" class="carousel slide" data-interval="1500" data-ride="carousel">
+          <div data-anchor="imageCarousel1" id="imageCarousel1" class="carousel slide" data-interval="1500" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#imageCarousel1" data-slide-to="0" class="active"></li>
               <li data-target="#imageCarousel1" data-slide-to="1"></li>
@@ -363,11 +363,17 @@
     <!-- Script for navBar color changes -->
     <script src="js/navBar.js"></script>
 
+
     <!-- Script for anchor -->
     <script>
+
+    $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
     function myAlertBox() {
       alert("Your message was sent successfully!!!!");
     }
+
     $('.anchor2').click(function(){
 
       //$('body *').not('#imageCarousel1 *').css('display','none');

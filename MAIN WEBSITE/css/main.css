@@ -69,6 +69,7 @@ a:hover{
 #section1{
   background-image: url('../img/carousel1a.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
