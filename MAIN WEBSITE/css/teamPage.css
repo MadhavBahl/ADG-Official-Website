@@ -21,6 +21,7 @@ body{
   overflow-x: hidden;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  word-wrap: break-word;s
 }
 #adgLogo{
   width: 40%;
@@ -97,6 +98,10 @@ h5{
 #pageFooterMain{
   background-color: #c7c7c7;
 }
+#footerH5{
+  font-size: 150%;
+  font-style: normal;
+}
 #pageFooter{
   text-align: center;
   color: #000000;
@@ -109,6 +114,9 @@ h5{
 }
 #pageFooter h4{
 
+}
+#member0Pic{
+  width: 140%;
 }
 
 /* ================== CSS for Bounce animation ================== */

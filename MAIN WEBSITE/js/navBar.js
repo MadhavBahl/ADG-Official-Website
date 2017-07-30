@@ -1,17 +1,12 @@
 var overlay = document.getElementById("overlay");
 var mainContent = document.getElementById("mainContent");
-overlay.style.display = 'block';
+
 mainContent.style.display = 'none';
 
 
 
-$(document).ready(function(){
+$(window).load(function(){
 
-
-
-  setTimeout(
-  function()
-  {
   overlay.style.display = 'none';
   mainContent.style.display = 'block';
 
@@ -56,6 +51,9 @@ $(document).ready(function(){
       console.log('Other Sections')
     }
   });
-}, 2100);
+
+  $("html, body").animate({scrollTop:0 }, 50);
+  var offsetSize = $(".header").innerHeight();
+  $("html, body").animate({scrollTop:$(window.location.hash).offset().top-offsetSize }, 900);
 
 });

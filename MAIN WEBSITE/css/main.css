@@ -76,6 +76,7 @@ a:hover{
 #mainCreate{
   font-family:nav_font;
   font-weight: lighter;
+  margin-top: -13.5%;
 }
 .centerTextHead{
 
@@ -104,24 +105,24 @@ a:hover{
   background-color: rgb(236,236,236);
   text-align: center;
 }
-#widthFix{
-}
 #adgTeam{
-
+  margin-left: -0.2%;
   background-color: rgb(246,246,246);
-  background-image: url('../img/carousel2a.jpg');
+  background-image: url('../img/board_poster.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
 #adgProjects{
+
   background-color: rgb(246,246,246);
-  background-image: url('../img/carousel2a.jpg');
+  background-image: url('../img/carousel21.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
 #adgPartners{
+    margin-right: -0.09%;
   background-color: rgb(236,236,236);
 
   text-align: center;
@@ -132,7 +133,7 @@ a:hover{
 }
 #TeamsSlide{
   height:100vh;
-  background-color: rgb(10,10,10);
+  background-color: rgb(32,32,32);
 
 }
 #aboutADG{
@@ -153,6 +154,7 @@ a:hover{
   text-align: center;
   color: rgb(216,216,216);
   padding-bottom: 4%;
+
 }
 #iosLogo{
   padding-top: 7%;
@@ -217,6 +219,7 @@ a:hover{
   height: 50vh;
   width: 100%;
   margin: 0;
+  overflow: hidden;
 }
 #imageCarousel1{
   margin-left: -3%;
@@ -235,8 +238,9 @@ a:hover{
   margin-right: -3%;
 }
 #carouselImages{
-  height:110%;
-  width: auto;
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
   align-items: center;
     margin: 0;
   margin-bottom: 20vh;
@@ -245,7 +249,7 @@ a:hover{
 .main-text
 {
     position: absolute;
-    top: 25%;
+    top: 35%;
 
     width: 96.66666666666666%;
     /*color: #FFF;*/
@@ -259,10 +263,16 @@ a:hover{
     /*color: #FFF;*/
 }
 .main-text h2 a{
+  transition: 0.6s;
   font-weight: 300;
   font-size: 1.12em;
   font-family:hel;
   font-weight: normal;
+}
+.main-text h2 a:hover{
+  transition: 0.6s;
+  font-weight: 400;
+  font-size: 1.42em;
 }
 /*.carousel-inner .item {
    -webkit-transition: 0.6s ease-in-out top;
@@ -400,7 +410,10 @@ padding-top: 1%;
   font-family:hel_head;
   font-size: 120%;
   color: rgba(255,255,255,0.7);
-  margin-top: 10%;
+
+}
+#mainHeadText h2{
+  margin-top: 28.5%;
 }
 
 #formInput{
