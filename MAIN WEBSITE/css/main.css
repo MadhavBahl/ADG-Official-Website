@@ -104,9 +104,10 @@ a:hover{
 #adgEvents{
   background-color: rgb(236,236,236);
   text-align: center;
+
 }
 #adgTeam{
-  margin-left: -0.2%;
+  margin-left: -0.4%;
   background-color: rgb(246,246,246);
   background-image: url('../img/board_poster.jpg');
   background-size: cover;
@@ -222,7 +223,9 @@ a:hover{
   overflow: hidden;
 }
 #imageCarousel1{
-  margin-left: -3%;
+  width:111%;
+
+  margin-left: -5%;
   margin-right: -3%;
 }
 #imageCarousel2{
@@ -234,6 +237,8 @@ a:hover{
   margin-right: -3%;
 }
 #imageCarousel4{
+  width:111%;
+
   margin-left: -3%;
   margin-right: -3%;
 }
